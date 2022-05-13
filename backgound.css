@@ -1,0 +1,6 @@
+div.markdown-reading-view{
+	background-image: linear-gradient(90deg, rgba(60, 10, 30, 0.06) 2%, transparent 0px), linear-gradient(1turn, rgba(60, 10, 30, 0.06) 2%, transparent 0px);
+	background-size: 30px 30px;
+	background-position: 50% center;
+	text-align: justify;
+}

@@ -1,0 +1,16 @@
+ol{
+	list-style: none;
+	counter-reset: section;
+	padding-left: 24px;
+	/*padding-left: 0;*/
+}
+
+ol li::before{
+	counter-increment: section;
+	content: counter(section) "、";
+}
+
+ul.contains-task-list{
+	padding-left: 42.5px;
+	/*padding-left: 0;*/
+}

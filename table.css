@@ -1,0 +1,10 @@
+.markdown-rendered table{
+	width: 100%;
+	background-color: #fdfdfd;
+	border-top:3px solid #cf5659;
+}
+
+
+tr:hover{
+	background-color: #f8ecec;
+}

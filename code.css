@@ -1,0 +1,65 @@
+.theme-light pre[class*="language-"]{
+	padding-top: 34px;
+	padding-bottom: 34px;
+	background-color: #fafafa;
+	border-top: 3px solid green;
+	border-bottom: 2px solid #cfcece;
+}
+
+.theme-light pre[class*="language-"]::before{
+	content: "";
+	background-color: red;
+	/*display: block;*/
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	top: 12px;
+	left: 23px;
+	border-radius: 50%;
+	box-shadow: 23px 0 #fdbc40, 45px 0 #35cd4b;
+}
+
+.markdown-rendered button.copy-code-button{
+	margin: 6px 14px 10px 10px;
+	color: black;
+	font-weight: bold;
+	padding-right: 15px;
+	padding-left: 15px;
+	display: inline !important;
+}
+
+.theme-light pre.language-javascript::after{
+	content: "javascript";
+	position: absolute;
+	bottom: 5px;
+	right:20px;
+	/*color: yellow;*/
+}
+
+.theme-light pre.language-css::after{
+	content: "css";
+	position: absolute;
+	bottom: 5px;
+	right:20px;
+}
+
+.theme-light pre.language-html::after{
+	content: "html";
+	position: absolute;
+	bottom: 5px;
+	right:20px;
+}
+
+
+code[class*="language-"]{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+
+p code{
+	padding-right:6px ;
+	padding-left: 6px;
+}
+
+

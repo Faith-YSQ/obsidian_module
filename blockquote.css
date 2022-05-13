@@ -1,0 +1,22 @@
+.markdown-rendered blockquote{
+	position: relative;
+	background-color: #fafafa;
+	width: 100%;
+	margin: 0;
+	border: none;
+	border-top: 3px solid #d83931;
+	border-bottom: 3px solid #e1e1e1;
+	border-radius: 3px;
+	padding-left: 42px;
+	padding-top: 15px;
+}
+
+.markdown-rendered blockquote::before{
+	content: "“";
+	font-family: 微软雅黑;
+	font-size: 50px;
+	font-weight: 700;
+	position: absolute;
+	top: -13px;
+	left: -17px;
+}
