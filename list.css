@@ -1,8 +1,8 @@
-ol{
+ol,ul:not(.contains-task-list),ul:not(.contains-task-list) li{
 	list-style: none;
 	counter-reset: section;
-	padding-left: 24px;
-	/*padding-left: 0;*/
+	/*padding-left: 24px;*/
+	padding-left: 0px;
 }
 
 ol li::before{
@@ -11,6 +11,31 @@ ol li::before{
 }
 
 ul.contains-task-list{
-	padding-left: 42.5px;
-	/*padding-left: 0;*/
+	/*padding-left: 42.5px;*/
+	padding-left: 22.5px;
+}
+
+ul.contains-task-list li{
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+ul:not(.contains-task-list) li::before{
+	content: "◆";
+	font-size:0.8em;
+	padding-right: 7px;
+}
+
+ul:not(.contains-task-list){
+	padding-left: 0px;
+}
+
+li p{
+	display: inline-block;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+li{
+	margin-top: 13px;
 }
