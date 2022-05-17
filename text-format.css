@@ -8,3 +8,8 @@
 b, strong{
 	color:#d83931;
 }
+
+/*源码模式下标签代码的字体*/
+span.cm-tag{
+	font-family: 'JetBrains Mono';
+}

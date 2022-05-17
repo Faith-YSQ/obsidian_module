@@ -50,6 +50,27 @@
 	right:20px;
 }
 
+.theme-light pre.language-java::after{
+	content: "java";
+	position: absolute;
+	bottom: 5px;
+	right:20px;
+}
+
+.theme-light pre.language-rust::after{
+	content: "rust";
+	position: absolute;
+	bottom: 5px;
+	right:20px;
+}
+
+
+.theme-light pre.language-python::after{
+	content: "python";
+	position: absolute;
+	bottom: 5px;
+	right:20px;
+}
 
 code[class*="language-"]{
 	padding-bottom: 0;

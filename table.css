@@ -12,3 +12,9 @@ table th{
 tr:hover{
 	background-color: #f8ecec;
 }
+
+/*源码模式下表格的的字体修改,因为JetBrains Mono字体会使竖线倾斜*/
+.cm-s-obsidian .HyperMD-table-row{
+	font-family: Consolas;
+}
+
