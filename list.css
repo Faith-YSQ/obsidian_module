@@ -5,25 +5,34 @@ ol,ul:not(.contains-task-list),ul:not(.contains-task-list) li{
 	padding-left: 0px;
 }
 
+/* 使用定位模式,使文本自动换行对齐 */
 ol li::before{
 	counter-increment: section;
 	content: counter(section) "、";
+	position: absolute;
+	top: -2px;
+	left: 4px;
+
 }
 
 ul.contains-task-list{
 	/*padding-left: 42.5px;*/
-	padding-left: 22.5px;
+	padding-left: 0px;
 }
 
 ul.contains-task-list li{
 	margin-top: 10px;
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
+	margin-left: -3px;
 }
 
 ul:not(.contains-task-list) li::before{
 	content: "◆";
 	font-size:0.8em;
 	padding-right: 7px;
+	position: absolute;
+	top: 2px;
+	left: 2.5px;
 }
 
 ul:not(.contains-task-list){
@@ -38,4 +47,10 @@ li p{
 
 li{
 	margin-top: 13px;
+	position: relative;
+	padding-left: 25px !important;
+}
+
+.markdown-preview-view .task-list-item-checkbox{
+	margin-right: 9px;
 }
